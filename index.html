@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>رَونق | RAWNAQ — ذهبٌ يُحكى</title>
+<meta name="description" content="رَونق — دار مجوهرات سودانية فاخرة. ذهبٌ يُحكى.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;800&family=Tajawal:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="brand-mark">
+      <span class="brand-ar">رَونق</span>
+      <span class="brand-en">RAWNAQ</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="nav-link active">الرئيسية</a>
+      <a href="#collections" class="nav-link">المجموعات</a>
+      <a href="#gold" class="nav-link">الذهب</a>
+      <a href="#diamond" class="nav-link">الألماس</a>
+      <a href="#story" class="nav-link">قصتنا</a>
+      <a href="#gallery" class="nav-link">المعرض</a>
+      <a href="#contact" class="nav-link">تواصل معنا</a>
+    </nav>
+
+    <a href="#collections" class="btn btn-gold nav-cta">اكتشف المجموعة</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="القائمة">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home" class="mobile-link">الرئيسية</a>
+    <a href="#collections" class="mobile-link">المجموعات</a>
+    <a href="#gold" class="mobile-link">الذهب</a>
+    <a href="#diamond" class="mobile-link">الألماس</a>
+    <a href="#story" class="mobile-link">قصتنا</a>
+    <a href="#gallery" class="mobile-link">المعرض</a>
+    <a href="#contact" class="mobile-link">تواصل معنا</a>
+    <a href="#collections" class="btn btn-gold mobile-cta">اكتشف المجموعة</a>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="hero-media">
+    <img src="https://images.unsplash.com/photo-1620656798579-1984d9e87df7?q=80&w=1800&auto=format&fit=crop" alt="مجوهرات ذهبية فاخرة" class="hero-img" id="heroImg" loading="eager" fetchpriority="high" decoding="async">
+    <div class="hero-scrim"></div>
+    <canvas id="particles" class="hero-particles"></canvas>
+  </div>
+
+  <div class="hero-content">
+    <span class="eyebrow reveal">دار مجوهرات سودانية</span>
+    <h1 class="hero-title">
+      <span class="line reveal">ذهبٌ</span>
+      <span class="line reveal" style="transition-delay:.12s">يُحكى.</span>
+    </h1>
+    <p class="hero-subtitle reveal" style="transition-delay:.28s">تصاميم تستلهم الأناقة، وتُصاغ لتبقى.</p>
+    <div class="hero-actions reveal" style="transition-delay:.4s">
+      <a href="#collections" class="btn btn-gold">اكتشف المجموعة</a>
+      <a href="#story" class="btn btn-ghost">قصتنا</a>
+    </div>
+  </div>
+
+  <div class="scroll-cue">
+    <span></span>
+  </div>
+</section>
+
+<!-- ================= INTRO ================= -->
+<section class="intro section">
+  <div class="container intro-grid">
+    <div class="intro-image reveal-up">
+      <img src="https://images.unsplash.com/photo-1650455221359-3aebf920bcc5?q=80&w=1400&auto=format&fit=crop" alt="تفاصيل مجوهرات ذهبية" loading="lazy" decoding="async">
+      <div class="pattern-frame"></div>
+    </div>
+    <div class="intro-text reveal-up">
+      <span class="section-eyebrow">فلسفتنا</span>
+      <h2 class="section-title">الجمال في التفاصيل</h2>
+      <p class="section-body">في رَونق، نؤمن أن المجوهرات ليست مجرد قطعة تُرتدى، بل تفصيل صغير يحمل حضورًا كبيرًا.</p>
+      <div class="signature-line"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FEATURED COLLECTIONS ================= -->
+<section class="collections section" id="collections">
+  <div class="container">
+    <div class="section-head center">
+      <span class="section-eyebrow">Collections</span>
+      <h2 class="section-title">مختارات رَونق</h2>
+    </div>
+
+    <div class="collection-grid">
+
+      <article class="collection-card reveal-up">
+        <div class="cc-media">
+          <img src="https://images.unsplash.com/photo-1611107683227-e9060eccd846?q=80&w=1000&auto=format&fit=crop" alt="مجموعة وهج" loading="lazy" decoding="async">
+        </div>
+        <div class="cc-info">
+          <h3>وهج</h3>
+          <p>بريق ذهبي هادئ يواكب حضورك في كل لحظة.</p>
+          <button class="cc-link" data-product="wahaj">اكتشف المجموعة</button>
+        </div>
+      </article>
+
+      <article class="collection-card reveal-up">
+        <div class="cc-media">
+          <img src="https://images.unsplash.com/photo-1589674668791-4889d2bba4c6?q=80&w=1000&auto=format&fit=crop" alt="مجموعة نقاء" loading="lazy" decoding="async">
+        </div>
+        <div class="cc-info">
+          <h3>نقاء</h3>
+          <p>خطوط ناصعة تحتفي بالبساطة الراقية.</p>
+          <button class="cc-link" data-product="naqaa">اكتشف المجموعة</button>
+        </div>
+      </article>
+
+      <article class="collection-card reveal-up">
+        <div class="cc-media">
+          <img src="https://images.unsplash.com/photo-1616837874254-8d5aaa63e273?q=80&w=1000&auto=format&fit=crop" alt="مجموعة سُمو" loading="lazy" decoding="async">
+        </div>
+        <div class="cc-info">
+          <h3>سُمو</h3>
+          <p>تصاميم مهيبة تليق بالمناسبات الاستثنائية.</p>
+          <button class="cc-link" data-product="sumou">اكتشف المجموعة</button>
+        </div>
+      </article>
+
+      <article class="collection-card reveal-up">
+        <div class="cc-media">
+          <img src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?q=80&w=1000&auto=format&fit=crop" alt="مجموعة أصالة" loading="lazy" decoding="async">
+        </div>
+        <div class="cc-info">
+          <h3>أصالة</h3>
+          <p>إرثٌ من الحِرفية يُعاد تقديمه بلغة اليوم.</p>
+          <button class="cc-link" data-product="asala">اكتشف المجموعة</button>
+        </div>
+      </article>
+
+      <article class="collection-card reveal-up">
+        <div class="cc-media">
+          <img src="https://images.unsplash.com/photo-1569397288884-4d43d6738fbd?q=80&w=1000&auto=format&fit=crop" alt="مجموعة رِقّة" loading="lazy" decoding="async">
+        </div>
+        <div class="cc-info">
+          <h3>رِقّة</h3>
+          <p>قطعٌ خفيفة الحضور، عميقة التأثير.</p>
+          <button class="cc-link" data-product="riqqa">اكتشف المجموعة</button>
+        </div>
+      </article>
+
+      <article class="collection-card reveal-up">
+        <div class="cc-media">
+          <img src="https://images.unsplash.com/photo-1651160670627-2896ddf7822f?q=80&w=1000&auto=format&fit=crop" alt="مجموعة ليالي" loading="lazy" decoding="async">
+        </div>
+        <div class="cc-info">
+          <h3>ليالي</h3>
+          <p>لتألقٍ يُشبه سحر الليل السوداني.</p>
+          <button class="cc-link" data-product="layali">اكتشف المجموعة</button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= GOLD COLLECTION ================= -->
+<section class="gold-section section" id="gold">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">Gold</span>
+      <h2 class="section-title">ذهبٌ بلمسة معاصرة</h2>
+    </div>
+
+    <div class="editorial-grid">
+      <div class="ed-item ed-large reveal-up">
+        <img src="https://images.unsplash.com/photo-1601821765780-754fa98637c1?q=80&w=1400&auto=format&fit=crop" alt="قلادة ذهبية" loading="lazy" decoding="async">
+        <span class="ed-cap">قلائد</span>
+      </div>
+      <div class="ed-item reveal-up">
+        <img src="https://images.unsplash.com/photo-1608042314453-ae338d80c427?q=80&w=900&auto=format&fit=crop" alt="سوار ذهبي" loading="lazy" decoding="async">
+        <span class="ed-cap">أساور</span>
+      </div>
+      <div class="ed-item reveal-up">
+        <img src="https://images.unsplash.com/photo-1598560917807-1bae44bd2be8?q=80&w=900&auto=format&fit=crop" alt="خاتم ذهبي" loading="lazy" decoding="async">
+        <span class="ed-cap">خواتم</span>
+      </div>
+      <div class="ed-item ed-wide reveal-up">
+        <img src="https://images.unsplash.com/photo-1705326454933-9685fc6888e1?q=80&w=1400&auto=format&fit=crop" alt="أقراط ذهبية" loading="lazy" decoding="async">
+        <span class="ed-cap">أقراط</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DIAMOND COLLECTION ================= -->
+<section class="diamond-section section" id="diamond">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-eyebrow">Diamond</span>
+      <h2 class="section-title">نقاء يلفت النظر</h2>
+      <p class="section-body">لمعانٌ هادئ وتفاصيل مصقولة بعناية، لتصاميم تُخاطب الحس الرفيع دون ضجيج.</p>
+    </div>
+
+    <div class="diamond-grid">
+      <div class="dm-item reveal-up">
+        <img src="https://images.unsplash.com/photo-1607703829739-c05b7beddf60?q=80&w=1100&auto=format&fit=crop" alt="خاتم مرصّع" loading="lazy" decoding="async">
+      </div>
+      <div class="dm-item reveal-up">
+        <img src="https://images.unsplash.com/photo-1543294001-f7cd5d7fb516?q=80&w=1100&auto=format&fit=crop" alt="خواتم مرصّعة" loading="lazy" decoding="async">
+      </div>
+      <div class="dm-item reveal-up">
+        <img src="https://images.unsplash.com/photo-1705326453282-e4e1b78f5fea?q=80&w=1100&auto=format&fit=crop" alt="أقراط مرصّعة" loading="lazy" decoding="async">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SUDANESE IDENTITY ================= -->
+<section class="identity-section section">
+  <div class="identity-pattern" aria-hidden="true"></div>
+  <div class="container identity-content">
+    <span class="section-eyebrow center">Heritage</span>
+    <h2 class="section-title center">روحٌ من السودان</h2>
+    <p class="section-body center">نستلهم من خطوط العمارة السودانية ونقوش النسيج التقليدي تفاصيلَ هادئة، تظهر في حوافّ قطعنا وخلفياتها — حضورٌ سوداني أصيل بلغة معاصرة.</p>
+  </div>
+</section>
+
+<!-- ================= THE CRAFT ================= -->
+<section class="craft-section section" id="story">
+  <div class="container">
+    <div class="section-head center">
+      <span class="section-eyebrow">The Craft</span>
+      <h2 class="section-title">رحلة الصياغة</h2>
+    </div>
+
+    <div class="craft-steps">
+      <div class="craft-step reveal-up">
+        <span class="craft-num">01</span>
+        <div class="craft-media"><img src="https://images.unsplash.com/photo-1719924998065-0c60e329ef58?q=80&w=900&auto=format&fit=crop" alt="رسم أولي يوثّق فكرة تصميم قطعة مجوهرات" loading="lazy" decoding="async"></div>
+        <h3>الفكرة</h3>
+        <p>كل قطعة تبدأ بإلهامٍ يستحضر الأناقة السودانية.</p>
+      </div>
+      <div class="craft-step reveal-up">
+        <span class="craft-num">02</span>
+        <div class="craft-media"><img src="https://images.unsplash.com/photo-1677045419454-e8b201856472?q=80&w=900&auto=format&fit=crop" alt="رسم تصميم دقيق لقطعة ذهبية" loading="lazy" decoding="async"></div>
+        <h3>التصميم</h3>
+        <p>رسمٌ دقيق يوازن بين الخط الحديث والهوية الأصيلة.</p>
+      </div>
+      <div class="craft-step reveal-up">
+        <span class="craft-num">03</span>
+        <div class="craft-media"><img src="https://images.unsplash.com/photo-1626784215021-2e39ccf971cd?q=80&w=900&auto=format&fit=crop" alt="يد حِرفي تُشكّل قطعة ذهبية بعناية" loading="lazy" decoding="async"></div>
+        <h3>التشكيل</h3>
+        <p>أيدٍ حِرفية تُحوّل الفكرة إلى شكلٍ نابض.</p>
+      </div>
+      <div class="craft-step reveal-up">
+        <span class="craft-num">04</span>
+        <div class="craft-media"><img src="https://images.unsplash.com/photo-1638854254875-a2416fe0fec2?q=80&w=900&auto=format&fit=crop" alt="لمسات نهائية دقيقة على قطعة ذهبية" loading="lazy" decoding="async"></div>
+        <h3>التفاصيل</h3>
+        <p>لمسات نهائية دقيقة تمنح القطعة روحها.</p>
+      </div>
+      <div class="craft-step reveal-up">
+        <span class="craft-num">05</span>
+        <div class="craft-media"><img src="https://images.unsplash.com/photo-1601121141461-9d6647bca1ed?q=80&w=900&auto=format&fit=crop" alt="قطعة مجوهرات ذهبية جاهزة بلمسة رَونق" loading="lazy" decoding="async"></div>
+        <h3>القطعة</h3>
+        <p>عملٌ فني جاهز ليحكي قصته على جسدك.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= JEWELRY SHOWCASE ================= -->
+<section class="showcase-section section">
+  <div class="showcase-grid">
+    <div class="sh-item sh-tall reveal-up">
+      <img src="https://images.unsplash.com/photo-1633934542430-0905ccb5f050?q=80&w=1200&auto=format&fit=crop" alt="قلادة على إطلالة أنيقة" loading="lazy" decoding="async">
+    </div>
+    <div class="sh-item reveal-up">
+      <img src="https://images.unsplash.com/photo-1631982690223-8aa4be0a2497?q=80&w=1000&auto=format&fit=crop" alt="خواتم معروضة" loading="lazy" decoding="async">
+    </div>
+    <div class="sh-item reveal-up">
+      <img src="https://images.unsplash.com/photo-1626784215013-13322cb0e471?q=80&w=1000&auto=format&fit=crop" alt="أساور ذهبية" loading="lazy" decoding="async">
+    </div>
+    <div class="sh-item sh-tall reveal-up">
+      <img src="https://images.unsplash.com/photo-1701777892770-df3bf8006fd8?q=80&w=1200&auto=format&fit=crop" alt="أقراط بتفاصيل دقيقة" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRODUCT COLLECTION ================= -->
+<section class="products-section section" id="products">
+  <div class="container">
+    <div class="section-head center">
+      <span class="section-eyebrow">Pieces</span>
+      <h2 class="section-title">قطع مختارة</h2>
+    </div>
+
+    <div class="product-grid" id="productGrid"></div>
+  </div>
+</section>
+
+<!-- ================= GIFT SECTION ================= -->
+<section class="gift-section section">
+  <div class="container gift-grid">
+    <div class="gift-text reveal-up">
+      <span class="section-eyebrow">Gifting</span>
+      <h2 class="section-title">هدية تحمل معنى</h2>
+      <p class="section-body">تغليفٌ أنيق وصندوقٌ فاخر لقطعة تُختار بعناية — لتصل هديتك في أبهى صورة.</p>
+      <a href="#contact" class="btn btn-gold">اكتشف الهدايا</a>
+    </div>
+    <div class="gift-media reveal-up">
+      <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=800&auto=format&fit=crop" alt="صندوق هدية فاخر" loading="lazy" decoding="async">
+      <img src="https://images.unsplash.com/photo-1680200256120-8ac04eb6f01d?q=80&w=800&auto=format&fit=crop" alt="مجوهرات مغلفة بأناقة" loading="lazy" decoding="async">
+    </div>
+  </div>
+</section>
+
+<!-- ================= OCCASIONS ================= -->
+<section class="occasions-section section">
+  <div class="container">
+    <div class="section-head center">
+      <span class="section-eyebrow">Occasions</span>
+      <h2 class="section-title">لكل مناسبة، قطعتها</h2>
+    </div>
+    <div class="occasions-grid">
+      <div class="occ-item reveal-up">
+        <img src="https://images.unsplash.com/photo-1654700194977-a1f7cc4d7884?q=80&w=800&auto=format&fit=crop" alt="الزفاف" loading="lazy" decoding="async">
+        <span>الزفاف</span>
+      </div>
+      <div class="occ-item reveal-up">
+        <img src="https://images.unsplash.com/photo-1589674781759-c21c37956a44?q=80&w=800&auto=format&fit=crop" alt="الخطوبة" loading="lazy" decoding="async">
+        <span>الخطوبة</span>
+      </div>
+      <div class="occ-item reveal-up">
+        <img src="https://images.unsplash.com/photo-1585960622850-ed33c41d6418?q=80&w=800&auto=format&fit=crop" alt="المناسبات" loading="lazy" decoding="async">
+        <span>المناسبات</span>
+      </div>
+      <div class="occ-item reveal-up">
+        <img src="https://images.unsplash.com/photo-1638208170417-2464f9699df1?q=80&w=800&auto=format&fit=crop" alt="الهدايا" loading="lazy" decoding="async">
+        <span>الهدايا</span>
+      </div>
+      <div class="occ-item reveal-up">
+        <img src="https://images.unsplash.com/photo-1722410180651-efd51636f260?q=80&w=800&auto=format&fit=crop" alt="الإطلالات اليومية" loading="lazy" decoding="async">
+        <span>الإطلالات اليومية</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section class="gallery-section section" id="gallery">
+  <div class="container">
+    <div class="section-head center">
+      <span class="section-eyebrow">Gallery</span>
+      <h2 class="section-title">المعرض</h2>
+    </div>
+    <div class="masonry" id="masonryGallery"></div>
+  </div>
+</section>
+
+<!-- ================= WHY RAWNAQ ================= -->
+<section class="why-section section">
+  <div class="container">
+    <div class="why-grid">
+      <div class="why-card reveal-up">
+        <span class="why-icon">◆</span>
+        <h3>أناقة خالدة</h3>
+        <p>تصاميم لا تخضع للموضة العابرة.</p>
+      </div>
+      <div class="why-card reveal-up">
+        <span class="why-icon">◆</span>
+        <h3>تفاصيل مدروسة</h3>
+        <p>كل عنصر يُصاغ بعناية فائقة.</p>
+      </div>
+      <div class="why-card reveal-up">
+        <span class="why-icon">◆</span>
+        <h3>هوية سودانية</h3>
+        <p>روحٌ أصيلة في كل قطعة.</p>
+      </div>
+      <div class="why-card reveal-up">
+        <span class="why-icon">◆</span>
+        <h3>تصميم معاصر</h3>
+        <p>لغة عصرية تحاكي حاضرك.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CLIENT EXPERIENCE ================= -->
+<section class="experience-section section">
+  <div class="container">
+    <div class="section-head center">
+      <span class="section-eyebrow">Experience</span>
+      <h2 class="section-title">تجربة العميل</h2>
+    </div>
+    <div class="experience-steps">
+      <div class="exp-step reveal-up"><span>01</span><h3>اختر مجموعتك</h3></div>
+      <div class="exp-step reveal-up"><span>02</span><h3>تواصل معنا</h3></div>
+      <div class="exp-step reveal-up"><span>03</span><h3>استشر فريقنا</h3></div>
+      <div class="exp-step reveal-up"><span>04</span><h3>استلم قطعتك</h3></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact-section section" id="contact">
+  <div class="container contact-grid">
+    <div class="contact-text reveal-up">
+      <span class="section-eyebrow">Contact</span>
+      <h2 class="section-title">تواصل معنا</h2>
+      <p class="section-body">فريقنا جاهز لمساعدتك في اختيار القطعة التي تُشبهك.</p>
+    </div>
+
+    <form class="contact-form reveal-up" id="contactForm">
+      <div class="form-row">
+        <label>الاسم
+          <input type="text" name="name" required>
+        </label>
+        <label>رقم الهاتف
+          <input type="tel" name="phone" required>
+        </label>
+      </div>
+      <div class="form-row">
+        <label>البريد الإلكتروني
+          <input type="email" name="email" required>
+        </label>
+        <label>نوع الطلب
+          <select name="type">
+            <option>استفسار عام</option>
+            <option>طلب قطعة</option>
+            <option>هدية خاصة</option>
+            <option>مناسبة</option>
+          </select>
+        </label>
+      </div>
+      <label class="full">الرسالة
+        <textarea name="message" rows="4"></textarea>
+      </label>
+      <div class="form-actions">
+        <button type="submit" class="btn btn-gold">إرسال الطلب</button>
+        <span class="form-note" id="formNote"></span>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ================= FINAL CTA ================= -->
+<section class="final-cta">
+  <img src="https://images.unsplash.com/photo-1650389236412-e7413cbcf2fe?q=80&w=1800&auto=format&fit=crop" alt="مجوهرات فاخرة" class="final-img" loading="lazy" decoding="async">
+  <div class="final-scrim"></div>
+  <div class="final-content">
+    <h2 class="reveal-up">قطعة تشبهك.</h2>
+    <p class="reveal-up">اكتشف التصميم الذي يكمل حضورك.</p>
+    <a href="#collections" class="btn btn-gold reveal-up">استكشف رَونق</a>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-ar">رَونق</span>
+      <span class="brand-en">RAWNAQ</span>
+      <p>ذهبٌ يُحكى.</p>
+    </div>
+    <nav class="footer-links">
+      <a href="#home">الرئيسية</a>
+      <a href="#collections">المجموعات</a>
+      <a href="#story">قصتنا</a>
+      <a href="#gallery">المعرض</a>
+      <a href="#contact">تواصل معنا</a>
+    </nav>
+    <div class="footer-social">
+      <a href="#" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+      </a>
+      <a href="#" aria-label="TikTok">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M14 4v9.5a3.5 3.5 0 1 1-3-3.46V7.2A6.2 6.2 0 1 0 17.2 13.4V9.9A5.9 5.9 0 0 0 21 11.4V8a5 5 0 0 1-5-4z"/></svg>
+      </a>
+      <a href="#" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M20 12a8 8 0 1 1-3.6-6.7L20 4l-1.1 3.7A7.96 7.96 0 0 1 20 12z"/><path d="M8.5 9.5c.3 2.7 2.3 4.7 5 5"/></svg>
+      </a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> رَونق RAWNAQ. جميع الحقوق محفوظة.</p>
+  </div>
+</footer>
+
+<!-- ================= PRODUCT MODAL ================= -->
+<div class="modal-overlay" id="productModal">
+  <div class="modal-box">
+    <button class="modal-close" id="modalClose" aria-label="إغلاق">✕</button>
+    <div class="modal-media">
+      <img id="modalImg" src="" alt="">
+    </div>
+    <div class="modal-info">
+      <span class="section-eyebrow" id="modalCollection"></span>
+      <h3 id="modalName"></h3>
+      <p id="modalDesc"></p>
+      <div class="modal-meta">
+        <span id="modalMaterial"></span>
+      </div>
+      <a href="#contact" class="btn btn-gold" id="modalCta">اطلب القطعة</a>
+    </div>
+  </div>
+</div>
+
+<!-- ================= LIGHTBOX ================= -->
+<div class="lightbox" id="lightbox">
+  <button class="lb-close" id="lbClose" aria-label="إغلاق">✕</button>
+  <button class="lb-nav lb-prev" id="lbPrev" aria-label="السابق">‹</button>
+  <img id="lbImg" src="" alt="">
+  <button class="lb-nav lb-next" id="lbNext" aria-label="التالي">›</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
