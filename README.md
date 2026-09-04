@@ -63,7 +63,7 @@ index.html
 
 ## 👨‍💻 المطور
 
-**Awab Wd Bashry**
+**Awab Bashary | AwabBuilds**
 
 💻 Web Developer  
 🚀 UI & Front-End Development
@@ -135,7 +135,7 @@ with any modern web browser, such as:
 
 ## 👨‍💻 Developer
 
-**Awab Wd Bashry**
+**Awab Bashary | AwabBuilds**
 
 💻 Web Developer  
 🚀 UI & Front-End Development
